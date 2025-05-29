@@ -7,12 +7,17 @@
 }
 
 .banner{
-    background-image: colurl(../img/Image.jpg);
+    background-image: url(Image.jpg);
     min-height: 100vh;
     min-width: 100%;
     background-position: center;
     background-size: cover;
    
+}
+
+.banner:hover{
+    background-image: url(photo.webp);
+    transition: ease all 5s;
 }
 
 .logo{
@@ -70,4 +75,26 @@
     font-weight: bold;
     font-size: 45px;
     text-transform: uppercase;
+    color: #fff;
+    margin-top: 200px;
+
 }
+
+button{
+    padding: 10px 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: ease all 1.5s;
+}
+
