@@ -98,3 +98,9 @@ button:hover{
     transition: ease all 1.5s;
 }
 
+.content p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
