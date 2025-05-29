@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+
+}
+
+.banner{
+    background-image: colurl(../img/Image.jpg);
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: px;
+    font-family: Arial;
+
+}
+
+.logo:hover{
+    transition: ease all 2.0s;
+    color: aqua;
+    
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    padding: 35px o;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar ul li a:hover{
+    color: cyan;
+    transition: ease all 1.5s;
+    
+}
+
+.content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+}
